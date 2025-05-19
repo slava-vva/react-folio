@@ -44,7 +44,8 @@
 }
 
 .about-image-container {
-	width: 370px;
+	width: 270px;
+	
 }
 
 .about-image-wrapper {
@@ -53,6 +54,13 @@
 	width: 100%;
 	border-radius: 10%;
 	transform: rotate(3deg);
+	display: inline-block; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+
+}
+
+.about-image {
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+	display: block;
 }
 
 .about-image-wrapper img {
@@ -71,7 +79,7 @@
 
 @media (max-width: 1024px) {
 	.about-logo {
-		z-index: 100;
+		z-index: 999;
 	}
 
 	.about-main {
@@ -113,5 +121,11 @@
 
 	.about-image-container {
 		width: 80%;
+		padding-left: 40px;
+		
+	}
+	.about-image-wrapper {
+		width: 80%;
+		
 	}
 }

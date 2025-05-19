@@ -18,7 +18,8 @@
 }
 
 .page-content {
-	background-color: white;
+	background-color: #f2efe7;
+	/* background-color: white; */
 	position: relative;
 }
 
@@ -51,7 +52,7 @@
 .title {
 	color: var(--primary-color);
 	font-family: var(--secondary-font);
-	font-size: 45px;
+	font-size: 36px;
 	font-weight: 700;
 	width: 70%;
 }
@@ -59,7 +60,7 @@
 .subtitle {
 	padding-top: 10px;
 	color: var(--secondary-color);
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 28px;
 	width: 70%;
 	margin-top: 25px;

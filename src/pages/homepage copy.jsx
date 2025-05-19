@@ -7,20 +7,20 @@ import {
 	faTwitter,
 	faGithub,
 	faStackOverflow,
-	faFacebook,
+	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-//import Article from "../components/homepage/article";
-//import Works from "../components/homepage/works";
+import Article from "../components/homepage/article";
+import Works from "../components/homepage/works";
 import Certs from "../components/homepage/certs";
-//import AllProjects from "../components/projects/allProjects";
+import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-//import myArticles from "../data/articles";
+import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
 
@@ -107,7 +107,7 @@ const Homepage = () => {
 									<div className="homepage-image-wrapper">
 										<img
 											src={`${process.env.PUBLIC_URL}/homepage-slava.jpg`}
-											alt="homepage"
+											alt="about"
 											className="homepage-image"
 										/>
 									</div>
@@ -141,22 +141,22 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.facebook}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faFacebook}
-									className="homepage-social-icon"
-								/>
-							</a>
-							<a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
 									icon={faStackOverflow}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.instagram}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -172,11 +172,11 @@ const Homepage = () => {
 							</a>
 						</div>
 
-						{/* <div className="homepage-projects">
+						<div className="homepage-projects">
 							<AllProjects />
-						</div> */}
+						</div>
 
-						{/* <div className="homepage-after-title">
+						<div className="homepage-after-title">
 							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
@@ -197,7 +197,7 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
-						</div> */}
+						</div>
 
 						<div className="page-footer">
 							<Footer />

@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: left;
 	align-items: center;
-	padding-top: 130px;
+	padding-top: 100px;
 }
 
 .homepage-container {
@@ -45,6 +45,7 @@
 	overflow: hidden;
 	border-radius: 10%;
 	transform: rotate(3deg);
+	display: inline-block; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 }
 
 .homepage-image-wrapper img {
@@ -93,6 +94,11 @@
 	padding-top: 30px;
 }
 
+.homepage-certs {
+	flex-basis: 800px;
+	padding-top: 30px;
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
@@ -123,9 +129,13 @@
 		order: 1;
 	}
 
+	.homepage-image {
+		box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+		/* display: block; */
+	}
 	.homepage-image-container {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 26px;
+		padding-bottom: 0px;
 		margin-left: 10px;
 		order: 1;
 	}

@@ -1,34 +1,44 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Portfolio of Slav",
+		name: "Viacheslav",
+		email: "east.slava@gmail.com",
+		logo: "../react-folio/logo-hi-img.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/slava-vva/",
+		linkedin: "https://www.linkedin.com/in/viacheslav-vorozhbit-5b60b931b/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		facebook: "https://www.facebook.com/share/1AW9N2DhzQ/",
+	},
+
+	certs: {
+		cert_ms: "sss",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Full-stack web application developer, database engineer and astrophysics enthusiast",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a highly qualified IT specialist with extensive experience in application development using the .NET Framework, building web applications with ASP.NET Core MVC, Blazor, and developing client-server solutions with SQL Server. I also have strong experience in Helpdesk systems and Data analytics",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "My name is Vyacheslav, I live in Auckland, I am a programmer with extensive experience",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I came to New Zealand in January 2024 and initially focused on improving my English. I am currently enrolled in the postgraduate IT program at the Auckland Institute of Studies, where I have successfully completed the first trimester. ",
+		description_2:
+			"I have extensive experience in the IT field. For the past 11 years, I worked in a large company where I developed and administered a Helpdesk system based on Hewlett Packard technology, following ITIL best practices. My responsibilities included performance tuning and ensuring the stability of a system that operated 24/7. I was also responsible for the administration and management of a three-tier environment (development, testing, and production), each comprising up to 30 servers, including clusters and load balancers. In addition, I participated in the development of web applications, system integrations, and worked with a wide range of databases, including MS SQL Server, Informix, PostgreSQL, and others.",
+		description_3:
+			"I am now looking for a position in my professional field — software development. I am ready to contribute to projects of any complexity and eager to apply my skills and experience in a new environment",
+		description_4:
+			"I hold a student visa with permission to work part-time. I am currently employed at the Abilities Centre on a part-time basis and occasionally volunteer at the local Community Feeding Centre. I also actively participate in English conversation groups at Mount Albert Baptist Church to further improve my fluency and communication skills.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "I constantly try to learn new things, discover new technologies and programming techniques and get acquainted with advanced achievements in IT and science.",
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},

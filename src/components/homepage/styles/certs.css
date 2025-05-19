@@ -1,0 +1,45 @@
+@import "../../../data/styles.css";
+
+.certs-body {
+	margin-bottom: 10px;
+}
+
+.certs {
+  padding-bottom: 20px;
+}
+
+.certs-image {
+	height: 30px;
+	width: 40px;
+	border-radius: 5%;
+	outline: 4px solid white;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.certs-title {
+	font-size: 16px;
+	font-weight: 700;
+	color: var(--secondary-color);
+	
+}
+
+.certs-subtitle {
+	font-size: 14px;
+	color: var(--secondary-color);
+	padding-left: 50px;
+	float: left;
+}
+
+.certs-duration {
+	font-size: 14px;
+	text-align: right;
+	color: var(--tertiary-color);
+}
+
+.certs-title-row {
+	display: flex;
+}
+
+.certs-title-col-2{
+	padding-left: 10px;
+}

@@ -2,15 +2,15 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
+		date: "7 May 2025",
 		title: "The Benefits of Cloud Computing",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Cloud computing is a new direction of development of the IT industry and is of increasing interest to businesses. I recently completed a course Cloud computing where I studied in detail the features of two popular services Microsoft Azure and Amazon AWS.",
 		keywords: [
 			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Slav",
+			"Slav V",
+			"Viacheslav Vorozhbit",
 		],
 		style: `
 				.article-content {
@@ -21,7 +21,7 @@ function article_1() {
 
 				.randImage {
 					align-self: center;
-					outline: 2px solid red;
+					outline: 2px solid grey;
 				}
 				`,
 		body: (
@@ -29,8 +29,8 @@ function article_1() {
 				<div className="article-content">
 					<div className="paragraph">Content of article 1</div>
 					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
+						src={`${process.env.PUBLIC_URL}/img/slav-cloud-report.jpg`}
+						alt="Slav cloud report"
 						className="randImage"
 					/>
 				</div>
@@ -41,7 +41,7 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "7 May 2023",
+		date: "1 May 2025",
 		title: "Artificial Intelligence in Healthcare",
 		description:
 			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",

@@ -16,17 +16,20 @@ const Socials = () => {
 	return (
 		<div className="socials">
 			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
+				<a
+					href={INFO.socials.facebook}
+					target="_blank"
+					rel="noreferrer"
+				>
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faTwitter}
+							icon={faInstagram}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Twitter</div>
+					<div className="social-text">Follow on Facebook</div>
 				</a>
 			</div>
-
 			<div className="social">
 				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
 					<div className="social-icon">
@@ -56,21 +59,16 @@ const Socials = () => {
 			</div>
 
 			<div className="social">
-				<a
-					href={INFO.socials.instagram}
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faInstagram}
+							icon={faTwitter}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Instagram</div>
+					<div className="social-text">Follow on Twitter</div>
 				</a>
 			</div>
-
 			<div className="email">
 				<div className="email-wrapper">
 					<a
