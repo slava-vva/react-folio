@@ -45,7 +45,10 @@
 	overflow: hidden;
 	border-radius: 10%;
 	transform: rotate(3deg);
-	display: inline-block; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+	display: inline-block;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .homepage-image-wrapper img {
@@ -99,6 +102,13 @@
 	padding-top: 30px;
 }
 
+@media (max-width: 600px) {
+	.card-container {
+		padding: 10px;
+		padding-bottom: 5px;
+	}
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;
@@ -130,7 +140,7 @@
 	}
 
 	.homepage-image {
-		box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 		/* display: block; */
 	}
 	.homepage-image-container {

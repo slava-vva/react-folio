@@ -50,6 +50,14 @@ const About = () => {
 									<p>{INFO.about.description_2}</p>
 									<p>{INFO.about.description_3}</p>
 									<p>{INFO.about.description_4}</p>
+									<h3>DISTINCTIVE QUALITIES</h3>
+									<p>Responsible and resourceful IT professional with strong problem-solving skills and a proactive approach to analyzing and resolving complex issues. Capable of self-education, collaborative and team-oriented, with a willingness to support colleagues, share experience, and continuously learn from others.</p>
+									<h3>ACTIVITIES</h3>
+									<p>Enrolled in the Postgraduate Diploma in Information Technology (PGDIT) program at the Auckland Institute of Studies, with studies ongoing until December 2025. Working part-time at the Abilities Centre and occasionally take part in volunteer activities.</p>
+									<h3>HOBBIES</h3>
+									<p>Enjoy hiking (tramping), swimming, bodysurfing, and cycling, which help build endurance and focus. Passionate about astronomy, physics, science fiction, and history.</p>
+									<br/>
+									<p>Kind regards,<br/>Viacheslav Vorozhbit</p>
 								</div>
 							</div>
 
@@ -57,7 +65,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about-hi.jpg"
+											src={`${process.env.PUBLIC_URL}/about-hi.jpg`}
 											alt="about"
 											className="about-image"
 										/>

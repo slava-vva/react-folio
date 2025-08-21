@@ -13,6 +13,18 @@
 	top: 4vh;
 }
 
+.contact-image-wrapper{
+	
+	
+    overflow: hidden;
+    border-radius: 10%;
+    transform: rotate(3deg);
+    display: inline-block;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
 .contact-subtitle {
 	width: 100% !important;
 }
@@ -21,7 +33,7 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	margin-top: 120px;
+	margin-top: 80px;
 }
 
 
@@ -30,6 +42,10 @@
 	flex-direction: column;
 	margin-top: 80px;
 }
+
+/* .contact-title{
+	width: 60%;
+} */
 
 .contact-socials {
 	display: flex;

@@ -1,14 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%PUBLIC_URL%/favicon-hi.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
-		<title>Reactfolio</title>
-	</head>
-	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
-		<div id="root"></div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%PUBLIC_URL%/favicon-hi.ico" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<title>Reactfolio</title>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JB4ZTZC6S3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-JB4ZTZC6S3');
+	</script>
+	<!-- <script>
+		fetch("https://api.telegram.org/bot7681259161:AAEzrvLS-0q7som9SV0Cq3H2Q2EerrlUXds/sendMessage?chat_id=1061464722&text=Hello+from+your+site")
+			.then(res => res.json())
+			.then(console.log);
+	</script> -->
+	<script>
+		const userAgent = navigator.userAgent;
+
+		fetch('https://api64.ipify.org?format=json')
+			.then(res => res.json())
+			.then(data => {
+				console.log("User IP:", data.ip);
+				console.log("Browser Info:", userAgent);
+
+
+				fetch("https://api.telegram.org/bot7681259161:AAEzrvLS-0q7som9SV0Cq3H2Q2EerrlUXds/sendMessage?chat_id=1061464722&text=Hello+from+site+"+data.ip)
+					.then(res => res.json())
+					.then(console.log);
+				// Example: Send to your backend or Telegram
+				/*
+				fetch('/send-telegram', {
+				  method: 'POST',
+				  headers: { 'Content-Type': 'application/json' },
+				  body: JSON.stringify({
+					ip: data.ip,
+					userAgent: userAgent
+				  })
+				});
+				*/
+			});
+
+	</script>
+</head>
+
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<div id="root"></div>
+</body>
+
 </html>

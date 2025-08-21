@@ -18,7 +18,7 @@
 	flex-direction: column;
 	height: 100%;
 	margin: 0;
-	padding-top: 120px;
+	padding-top: 80px;
 }
 
 .articles-container {
@@ -49,8 +49,17 @@
 	.articles-subtitle {
 		width: 100% !important;
 	}
-	
+
 	.articles-logo {
 		z-index: 999;
+	}
+}
+
+@media (max-width: 1024px) {
+	.articles-wrapper {
+		padding-top: 10px;
+	}
+	.articles-article{
+		padding-left: 15px;
 	}
 }

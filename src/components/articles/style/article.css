@@ -42,7 +42,7 @@
 
 .article-description {
 	padding-top: 10px;
-	font-size: 12px;
+	font-size: 14px;
 	color: var(--secondary-color);
 	font-weight: 480;
 	line-height: 25px;
@@ -55,6 +55,17 @@
 	font-weight: 700;
 }
 
+.article-image {
+	align-self: center;
+	outline: 2px solid grey;
+	width: 640px
+}
+
+.article-paragraph {
+	font-family: var(--primary-font);
+	text-indent: 2em;
+}
+
 @media (max-width: 1024px) {
 	.article-left-side {
 		min-width: 10%;
@@ -65,5 +76,11 @@
 		flex-basis: 90%;
 		min-width: 85%;
 		max-width: 85%;
+	}
+}
+
+@media (max-width: 1024px) {
+	.article-image {
+		width: 100%;
 	}
 }
